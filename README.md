@@ -43,14 +43,17 @@ MeetingApp/
 
 1. Projeyi klonlayın veya indirin
 2. Terminal'de proje dizinine gidin
-3. Aşağıdaki komutu çalıştırın:
+3. Aşağıdaki komutları çalıştırın:
 
 ```bash
 dotnet restore
+libman restore
 dotnet run
 ```
 
 4. Tarayıcınızda `http://localhost:5083` adresine gidin
+
+**Not:** `libman restore` komutu Bootstrap gibi client-side kütüphaneleri `wwwroot/lib/` klasörüne indirir.
 
 ## 📝 Notlar
 

@@ -165,3 +165,6 @@ FodyWeavers.xsd
 .idea/
 *.sln.iml
 
+# LibMan (Library Manager) - Client-side libraries
+wwwroot/lib/
+
